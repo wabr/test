@@ -1,0 +1,107 @@
+.hide{display: none;}
+.show{display: block;}
+a.help{position: absolute; right: 15px; top: 5px; font-weight: bold; color:#f00; font-size: 20px; text-decoration: none;}
+
+.shortcode{padding: 1% 5%; margin: 10px 0px !important; border: dashed 1px #900 !important; display: inline-block; width: 90%;}
+.shortcode .shortcode2{-webkit-box-shadow: none; box-shadow:none; background-color: #fff; -webkit-transition: none; transition: none; width: 500px; border: none; color: #f00;
+}
+.list_catalog{overflow: hidden;}
+.list_catalog .list_catalog_box{overflow: hidden; clear: both; margin-top: 20px;}
+
+.list_catalog .fl{float: center;font-size: 15px;}
+.list_catalog .fl input{margin: 0;}
+.list_catalog .fl.link .link_icon{float: center;display: inline-block; font-family: 'Glyphicons Halflings'; width:24px; height: 24px; margin-top: 4px;}
+.list_catalog .fl.link .link_icon:before{content: "\e144";}
+.list_catalog .fl.link .link_icon.active{color:#00cc33;}
+.list_catalog .fl.link .ln{width:300px; float: center; height: 27px; color:#00cc33;}
+
+.list_catalog .fl.link .ln::-webkit-input-placeholder { /* WebKit browsers */
+color:#ccc;
+}
+.list_catalog .fl.link .ln:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#ccc;
+}
+.list_catalog .fl.link .ln::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#ccc;
+}
+.list_catalog .fl.link .ln:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#ccc;
+}
+
+.list_catalog .check{width:24px;height: 24px; display: inline-block; background: url(images/check.png) no-repeat 0 0px;}
+/*.list_catalog a.check:hover{background-position: 0 -24px;}*/
+.list_catalog a.check.on{background-position: 0 -24px;}
+.add{clear: both; display: block; background: #00a0d2; border-color: #00a0d2; -webkit-box-shadow: inset 0 1px 0 rgba(0,160,210,.6); box-shadow: inset 0 1px 0 rgba(0,160,210,.6); color: #fff; border-radius: 3px;}
+.update.current{ background: #E6A01E; border-color: #E6A01E; -webkit-box-shadow: inset 0 1px 0 rgba(230,160,30,.6); box-shadow: inset 0 1px 0 rgba(230,160,30,.6); color: #fff; border-radius: 3px;}
+.list_catalog .save{clear:both; display: block; float: left; background: #0a0; border-color: #0a0; -webkit-box-shadow: inset 0 1px 0 rgba(0,170,0,.6); box-shadow: inset 0 1px 0 rgba(0,170,0,.6); color: #fff; border-radius: 3px;}
+.list_catalog .close{float: right;}
+.list_catalog .delete{float: right; background: #f00; border-color: #f00; -webkit-box-shadow: inset 0 1px 0 rgba(255,0,0,.6); box-shadow: inset 0 1px 0 rgba(255,0,0,.6); color: #fff; border-radius: 3px;}
+.list_catalog .tal{text-align: center;padding:10px 0 5px 0;font-size: 15px;}
+.list_catalog .tal.fr{width: 66px;}
+.list_catalog .tal.se{width: 183px;}
+.list_catalog .tar{text-align: right;}
+
+.s_label{margin:0 0 5px 690px;}
+.search_la{background: #eee;border-width: 0;}
+select,input{border-radius: 3px;border-width: 1px;}
+.list_catalog #search{line-height: 1;}
+.list_catalog .search{padding:0;background: #fff;border-width: 0;content: "\f179";}
+.postbox {padding: 10px 10px 10px 15px; width: 1000px;margin:0 0 0 60px;}
+.label{padding:0;}
+.update{ border-radius: 3px;border-width: 1px;padding:7px;}
+.add {margin:5px 0 0 0;}
+.shortcode2{margin: 10px 10px !important; width: 86.3%;}
+.c_table{margin:0 0 0 60px;width:700px}
+.c_table thead{border-bottom: 1px solid #111;}
+.c_table tfoot{border-top: 1px solid #111;}
+.page {margin:10px 0;}
+.save{margin:3px 10px 0 0;}
+.jump{
+	box-sizing: border-box;
+	background-color: #fff;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border: 1px solid transparent;
+}
+.page :hover{
+	color: white !important;
+    border: 1px solid #111;
+    background-color: #585858;
+    background: linear-gradient(to bottom, #585858 0%, #111 100%);
+}
+.jump.current{
+	background-color: #fff;
+	color: #333 !important;
+    border: 1px solid #cacaca;
+    background: linear-gradient(to bottom, #fff 0%, #dcdcdc 100%);
+    }
+a.btn{
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #f7f7f7;
+    font-weight: 600;
+    }
+a.start {
+    display: inline;
+}
+h1.start {
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 10px 15px 10px 0;
+    display: inline-block;
+}
+
+/*覆盖datatable的样式 START*/
+table.dataTable thead th, table.dataTable thead td,table.dataTable tfoot th, table.dataTable tfoot td{padding: 8px 10px !important;}
+table.dataTable tbody th, table.dataTable tbody td{padding: 8px 10px !important;}
+/*覆盖datatable的样式 END*/

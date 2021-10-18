@@ -1,0 +1,15 @@
+
+# BEGIN wordpress
+# The directives (lines) between `BEGIN wordpress` and `END wordpress` are
+# dynamically generated, and should only be modified via wordpress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress/index.php [L]
+</IfModule>
+
+# END wordpress
