@@ -8,7 +8,7 @@
 
 /**
  * Tells wordpress to load the wordpress theme and output it.
- *wsa
+ *wsa?
  * @var bool
  */
 define( 'WP_USE_THEMES', true );
